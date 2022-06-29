@@ -2,7 +2,7 @@
 # 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
 
 # 超惡意網站
-DOMAIN-SUFFIX,21yasuo.com
+DOMAIN-SUFFIX,21Yasuo.com
 # DOMAIN-KEYWORD,2345
 DOMAIN-SUFFIX,vicp.net
 DOMAIN-SUFFIX,cnqb.net
@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,yyqy.com
 DOMAIN-SUFFIX,sunvod.com
 DOMAIN-SUFFIX,t168.com
 DOMAIN-SUFFIX,coolcdrom.com
+DOMAIN-SUFFIX,xyhvip.cn
 
 # 163
 DOMAIN-SUFFIX,a.youdao.com
