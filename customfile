@@ -15,6 +15,7 @@ surge_ruleset=台灣IEPL,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Cla
 surge_ruleset=台灣IEPL,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/NetflixIP.list
 surge_ruleset=台灣IEPL,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/KKTV.list
 surge_ruleset=台灣IEPL,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/DisneyPlus.list
+surge_ruleset=台灣IEPL,https://raw.githubusercontent.com/RobertChiang0409/Robertfile/main/openai.list
 surge_ruleset=台灣,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/YouTubeMusic.list
 surge_ruleset=台灣,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/YouTube.list
 surge_ruleset=台灣,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/Line.list
