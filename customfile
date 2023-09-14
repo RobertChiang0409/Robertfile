@@ -15,7 +15,6 @@ surge_ruleset=台灣IEPL,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Cla
 surge_ruleset=台灣IEPL,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/NetflixIP.list
 surge_ruleset=台灣IEPL,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/KKTV.list
 surge_ruleset=台灣IEPL,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/DisneyPlus.list
-surge_ruleset=台灣IEPL,https://raw.githubusercontent.com/RobertChiang0409/Robertfile/main/openai.list
 surge_ruleset=台灣,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/YouTubeMusic.list
 surge_ruleset=台灣,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/YouTube.list
 surge_ruleset=台灣,https://codeberg.org/chen/ACL4SSR/raw/branch/master/Clash/Ruleset/Line.list
@@ -38,10 +37,10 @@ surge_ruleset=全網設定,[]MATCH
 
 custom_proxy_group=全網設定`select`[]自動測速`[]手動選擇`[]台灣`[]台灣IEPL`[]香港`[]日本`[]美國`[]天樞`
 custom_proxy_group=手動選擇`select`.*
-custom_proxy_group=自動測速`url-test`.*`http://www.gstatic.com/generate_204`180
+custom_proxy_group=自動測速`url-test`.*`http://www.gstatic.com/generate_204`300
 custom_proxy_group=天樞`url-test`华`http://www.gstatic.com/generate_204`180
-custom_proxy_group=台灣`url-test`Taiwan|台湾`http://www.gstatic.com/generate_204`90
-custom_proxy_group=台灣IEPL`url-test`台湾 IEPL`http://www.gstatic.com/generate_204`90
-custom_proxy_group=香港`url-test`Hong Kong|香港`http://www.gstatic.com/generate_204`180
-custom_proxy_group=日本`url-test`Japan|日本`http://www.gstatic.com/generate_204`180
-custom_proxy_group=美國`url-test`United States|美国`http://www.gstatic.com/generate_204`180
+custom_proxy_group=台灣`url-test`Taiwan|台湾`http://www.gstatic.com/generate_204`180
+custom_proxy_group=台灣IEPL`url-test`^(?=.*?Trojan)(?=.*?台湾)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=香港`url-test`Hong Kong|香港`http://www.gstatic.com/generate_204`300
+custom_proxy_group=日本`url-test`Japan|日本`http://www.gstatic.com/generate_204`300
+custom_proxy_group=美國`url-test`United States|美国`http://www.gstatic.com/generate_204`300
